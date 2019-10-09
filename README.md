@@ -32,13 +32,13 @@ https://documenter.getpostman.com/view/8206298/SVtPYWoX?version=latest
 
 |  METHODS | REQUEST | DESCRIPTION | BODY formdata | REQUIREMENTS |
 | --- | --- | --- | --- | --- | 
-| POST | /fit | | <h5>- Key = *'image'* / Value = *doc.tif* </h5> <h5>- Key = *'predicted_as'* / Value = *'RIB'* </h5>|<h5>  Tag_key = 'Image ImageDescription'</h5>|
-|  |  |  |  |  | 
 | POST | /classify |  | <h5>- Key = *'image'* / Value = *doc.tif*</h5> | | 
+|  |  |  |  |  | 
+| POST | /fit | | <h5>- Key = 'image' / Value = doc.tif</h5><h5>- Key = *'category'* / Value = *'RIB'* </h5><h5>- Key = *'predicted_as'* / Value = *'RIB'* </h5>||
 | GET |  /status | | | | 
 | PUT / PATCH | /reset | || | 
 
-- ####    Sending fit request using curl client`
+- ####    Sending fit request using curl client
 ```
 curl --location --request POST "http://localhost:5000/fit" \
   --form "image=@path_to.tif"
