@@ -30,13 +30,13 @@ curl --location --request GET "http://localhost:5000/"
 - ####    Postman published documentation
 https://documenter.getpostman.com/view/8206298/SVtPYWoX?version=latest
 
-|  METHODS | REQUEST | DESCRIPTION | BODY formdata | RESPONSES |
-| --- | --- | --- | --- | --- | 
-| POST | /classify |  | <h5>- Key = *'image'* / Value = *doc.tif*</h5> | <h5>{"message": "",</h5><h5>"predictedClass": null,</h5><h5>"probability": -1.0,</h5><h5>"success": false,</h5><h5> "usable": false}</h5>| 
+|  METHODS | REQUEST | BODY formdata | RESPONSES |
+| --- | --- | --- | --- | 
+| POST | /classify | <h5>- Key = *'image'* / Value = *doc.tif*</h5> | <h5>{"message": "",</h5><h5>"predictedClass": null,</h5><h5>"probability": -1.0,</h5><h5>"success": false,</h5><h5> "usable": false}</h5>| 
 |  |  |  |  |  | 
-| POST | /fit | | <h5>- Key = 'image' / Value = doc.tif</h5><h5>- Key = *'category'* / Value = *'RIB'* </h5><h5>- Key = *'predicted_as'* / Value = *'ADH'* </h5>|<h5><h5>{"message": "Process of rib.tif",</h5><h5>"success": true}</h5>|
-| GET |  /status | | | | 
-| PUT / PATCH | /reset | || | 
+| POST | /fit |<h5>- Key = 'image' / Value = doc.tif</h5><h5>- Key = *'category'* / Value = *'RIB'* </h5><h5>- Key = *'predicted_as'* / Value = *'ADH'* </h5>|<h5><h5>{"message": "Process of rib.tif",</h5><h5>"success": true}</h5>|
+| GET |  /status | | | 
+| PUT / PATCH | /reset || | 
 
 - ####    Sending fit request using curl client
 ```
