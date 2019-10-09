@@ -34,7 +34,7 @@ https://documenter.getpostman.com/view/8206298/SVtPYWoX?version=latest
 | --- | --- | --- | --- | --- | 
 | POST | /classify |  | <h5>- Key = *'image'* / Value = *doc.tif*</h5> | | 
 |  |  |  |  |  | 
-| POST | /fit | | <h5>- Key = 'image' / Value = doc.tif</h5><h5>- Key = *'category'* / Value = *'RIB'* </h5><h5>- Key = *'predicted_as'* / Value = *'RIB'* </h5>||
+| POST | /fit | | <h5>- Key = 'image' / Value = doc.tif</h5><h5>- Key = *'category'* / Value = *'RIB'* </h5><h5>- Key = *'predicted_as'* / Value = *'ADH'* </h5>||
 | GET |  /status | | | | 
 | PUT / PATCH | /reset | || | 
 
