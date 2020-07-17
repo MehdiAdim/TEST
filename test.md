@@ -6,11 +6,11 @@
    
    3- [Arrival time consistency errors](#3-arrival-time-consistency-errors).
    
-   4- [Interpolate missing arrival time data](4-interpolate-missing-arrival-time-data).
+   4- [Interpolate missing arrival time data](#4-interpolate-missing-arrival-time-data).
    
-   5- [Build ditributions](5-build-ditributions).
+   5- [Build ditributions](#5-build-ditributions).
    
-   6- [Vehicle assessment](6-vehicle-assessment).
+   6- [Vehicle assessment](#6-vehicle-assessment).
               
 ---
 
@@ -118,6 +118,7 @@
   
 ---
 
+
 ### 4. Interpolate missing arrival time data.
    
    - Goals:
@@ -209,7 +210,7 @@
 
 ---
     
-### 5. Vehicle assessment.
+### 6. Vehicle assessment.
    
    - Goals:
    
