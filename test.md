@@ -10,7 +10,7 @@
    
    5- [Build ditributions](5-build-ditributions).
    
-   6- [Vehicle assessment](5-vehicle-assessment).
+   6- [Vehicle assessment](6-vehicle-assessment).
               
 ---
 
