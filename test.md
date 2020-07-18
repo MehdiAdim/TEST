@@ -112,9 +112,9 @@
                   ├── ...
                   ├── ...
                   ├── ...
-                  ├── consistency_errors_by_line.csv
-                  ├── consistency_errors.csv
-                  └── feed_time_coherence.csv
+                  ├── consistency_errors_by_line.csv      (Not generated if 0 errors)
+                  ├── consistency_errors.csv              (Not generated if 0 errors)
+                  └── feed_time_coherence.csv             (Not generated if 0 incoherence)
   
 ---
 
@@ -137,7 +137,7 @@
    - Example:    
         
         ```
-           python src/processing/interpolate_missed_data.py.py austin /home/user/assessment_ouput
+           python src/processing/interpolate_missed_data.py austin /home/user/assessment_ouput
         ```
    - Generated tree files (structure of assessment results):
    
@@ -192,6 +192,7 @@
               └── distribution_by_trip
               ├── describe_same_trips_and_stops_on_window_time
               ├── describe_same_trips_and_stops_on_window_time__with_changed_trips
+              ├── travel_time_distribution
      
      distribution_by_trip : 
      
@@ -206,6 +207,8 @@
      describe_same_trips_and_stops_on_window_time__with_changed_trips:
      
         - Contains the same as folder precendent but just for trips that have a new Line on another day (stops sequence that haven't the stops id between one dayn and another)
+     
+     travel_time_distribution: contains Travel time distribution over days for all Connections (travel duration for each successive stops)
       
 
 ---
