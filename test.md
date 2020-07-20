@@ -12,7 +12,7 @@
    
    5- [Get time window of realtime trip update feeds from wood](#5-get-time-window-of-realtime-trip-update-feeds-from-wood).
    
-   6- [Build ditributions](#6-build-ditributions).
+   6- [Build distributions](#6-build-ditributions).
    
    7- [Vehicle assessment](#7-vehicle-assessment).
               
